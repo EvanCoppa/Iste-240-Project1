@@ -1,24 +1,23 @@
+
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+<?php include 'app.php';
+$Components->head('Index'); ?>
 <body>
-    <section>
-
+<?php $Components->header(); ?>
+<main>
+    <section id='landing_section'>
+<h1>Northern <span>Californa</span></h1>
 
     </section>
-    <section>
+    <section id="explore_section">
         <!-- Explore -->
         <div>
             <div>
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3>San Francisco</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non laborum itaque, iste culpa at, ducimus labore hic velit quod veritatis, fugit amet eum enim fugiat ea voluptatibus molestias quibusdam?
+                    </p>
+                    <a href="">Read More -></a>
                 </div>
                 <div><img src="" alt=""></div>
             </div>
@@ -46,6 +45,8 @@
         </div>
 
     </section>
+</main>
+    <?php $Components->footer(); ?>
 </body>
 
 </html>
