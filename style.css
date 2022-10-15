@@ -258,14 +258,16 @@ form{
 
   /* Footer */
   footer{
-    padding: 50px;
-    background-color: #1f791f;
-  }
+    padding: 30px;
+    background-color: #a3b18a;
+    color: black;
+   }
 
 
   footer a{
-    color: white;
-  }
+    color: black;
+
+   }
   .footer{
     display: flex;
     justify-content: space-around;
@@ -298,4 +300,40 @@ width: 50%;
     justify-content: space-around;
   }
 
-  
+  /* The lost coast */
+
+  #lost_coast {
+    background-image: url("/images/lostcoast.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+#lost_coast h1 {
+    font-size: 6rem;
+    max-width: 30vw;
+    position: absolute;
+    top: 8.5rem;
+    left: 2rem;
+
+}
+
+#glass_beach{
+    background-image: url("/images/glassbeach.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+#glass_beach h1 {
+    font-size: 6rem;
+    max-width: 30vw;
+    position: absolute;
+    top: 8.5rem;
+    left: 2rem;
+
+}

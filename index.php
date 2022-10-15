@@ -48,8 +48,7 @@ $Components->head('Index'); ?>
     </section>
     <section>
         <div>
-            <div></div>
-            <div></div>
+          <p></p>
         </div>
     </section>
 </main>

@@ -26,7 +26,7 @@ class Components
       if ($pageId == $currentPageId) {
         echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
       } else {
-        echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
+        echo '<a class="nav_link" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
       }
     }
     echo '</nav> </header>';

@@ -21,14 +21,14 @@ $Components->head('Index'); ?>
             <div class="info">
                 <div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam debitis, sit delectus quisquam eligendi maiores, perferendis, officia eius molestias aspernatur magni beatae explicabo iusto ea magnam repellendus quaerat vel obcaecati.</p>
+                        <p>If you haven't been to the Bay Area, you’re missing out! The San Francisco Bay area is THE place to be when visiting CA. It has everything you can possibly want: amazing views, delicious food, and fun activities.</p>
                     </div>
                     <div><img src="" alt=""></div>
                 </div>
                 <div>
                     <div><img src="" alt=""></div>
                     <div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ratione, libero necessitatibus nobis quod accusamus inventore. Rem explicabo itaque totam eius, suscipit doloremque. Odio maxime necessitatibus tempore ut nesciunt harum.</p>
+                        <p>If you haven't been to the Bay Area, you’re missing out! The San Francisco Bay area is THE place to be when visiting CA. It has everything you can possibly want: amazing views, delicious food, and fun activities.</p>
                     </div>
                 </div>
                 <div>
