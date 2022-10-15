@@ -2,6 +2,7 @@
  <?php include 'app.php';
 $Components->head('Index'); ?>
  <body>
+    <?php $Components->header(4); ?>
     <section>
 <h3></h3>
 <h1>Sequoia</h1>

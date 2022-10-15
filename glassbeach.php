@@ -4,7 +4,7 @@
 $Components->head('Index'); ?>
 </head>
 <body>
-<?php $Components->header(); ?>
+<?php $Components->header(1); ?>
 
     <main>
 

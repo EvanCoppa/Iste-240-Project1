@@ -1,9 +1,9 @@
 <html lang="en">
 <?php include 'app.php';
-$Components->head('Index'); ?>
+$Components->head('San Francisco'); ?>
 
 <body >
-    <?php $Components->header(); ?>
+    <?php $Components->header(3); ?>
     <main >
         <section id="sanfrancisco" style="background-color: #1F1F1F;">
             <div><img src="/images/trolly.png" alt=""></div>

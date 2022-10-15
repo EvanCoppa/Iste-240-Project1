@@ -50,10 +50,10 @@ class Components
     // resorces links, Survey Rubrick
     echo '<div>
          <h3>Resources</h3>
-         <a class="footer-link" href="#">About</a>
-            <a class="footer-link" href="#">Survey</a>
-            <a class="footer-link" href="#">Rubric</a>
-            <a class="footer-link" href="#">Reference</a>
+         <a class="footer-link" href="/about.php">About</a>
+            <a class="footer-link" href="/survey.php">Survey</a>
+            <a class="footer-link" href="Rubric.php">Rubric</a>
+            <a class="footer-link" href="Refrences.php">Reference</a>
             </div>';
     //project desctiption section
     echo '<div>

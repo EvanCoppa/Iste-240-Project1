@@ -3,7 +3,7 @@
 <?php include 'app.php';
 $Components->head('Index'); ?>
 <body>
-<?php $Components->header(); ?>
+<?php $Components->header(0); ?>
 <main>
     <section id='landing_section'>
 <h1>Northern <span>Californa</span></h1>

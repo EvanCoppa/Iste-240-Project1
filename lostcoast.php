@@ -3,7 +3,7 @@
 <?php include 'app.php';
 $Components->head('Index'); ?>
 <body>
-<?php $Components->header(); ?>
+<?php $Components->header(2); ?>
 <main>
     <section id='lost_coast'>
 <h1>The Lost Coast</h1>
