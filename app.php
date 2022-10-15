@@ -2,10 +2,10 @@
 // componets class
 class Components
 {
-    //head
-    public function head($title)
-    {
-        echo '<html lang="en">
+  //head
+  public function head($title)
+  {
+    echo '<html lang="en">
         <head>
             <link rel="stylesheet" href="style.css">
             <meta charset="UTF-8">
@@ -14,27 +14,56 @@ class Components
             <title>' . $title . '</title>
         </head>
         <body>';
-    }
+  }
 
-    // header
-    public function header()
-    {
-        // header
-        echo '
-        <header>
-        <nav class="nav">
-        <a class="nav-link active" href="#">Info</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </nav>         </header>';
+  // header
+  public function header($pageId = -1)
+  {
+    echo '<header> <nav class="nav">';
+    $pages = array('Home', 'Glass Beach', 'Lost Cost', "San Francisco", "National Parks");
+    $links = array('index.php', 'glassbeach.php', 'lostcoast.php', 'sanfrancisco.php', 'nationalparks.php');
+    for ($currentPageId = 0; $currentPageId < count($pages); $currentPageId++) {
+      if ($pageId == $currentPageId) {
+        echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
+      } else {
+        echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
+      }
     }
-    // footer
-    public function footer()
-    {
-        // footer
-       // include_once 'components/footer.php';
-    }
+    echo '</nav> </header>';
+  }
+
+  // footer
+  public function footer()
+  {
+    // pages links, Home Lost Coast Glass Beach San Francisco
+    echo '<footer>
+          <div class="footer">
+          <div>
+          <h3>Pages</h3>
+          <a class="footer-link" href="#">The Lost Coast</a>
+          <a class="footer-link" href="#">Natioal Parks</a>
+          <a class="footer-link" href="#">Roadside Atractions</a>
+          <a class="footer-link" href="#">The Lost Coast</a>
+          <a class="footer-link" href="#">Glass Beach</a>
+          <a class="footer-link" href="sanfrancisco.php">San Francisco</a>
+           </div>';
+    // resorces links, Survey Rubrick
+    echo '<div>
+         <h3>Resources</h3>
+         <a class="footer-link" href="#">About</a>
+            <a class="footer-link" href="#">Survey</a>
+            <a class="footer-link" href="#">Rubric</a>
+            <a class="footer-link" href="#">Reference</a>
+            </div>';
+    //project desctiption section
+    echo '<div>
+         <h3>Project Description</h3>
+         <p>Project Description</p>
+            </div>
+            </div>
+            </footer>';
+  }
 }
+
 
 $Components = new Components();

@@ -11,15 +11,16 @@ $Components->head('Index'); ?>
     </section>
     <section id="explore_section">
         <!-- Explore -->
+        <h2>Explore</h2>
         <div>
-            <div>
+            <div class="explore_div">
                 <div>
                     <h3>San Francisco</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non laborum itaque, iste culpa at, ducimus labore hic velit quod veritatis, fugit amet eum enim fugiat ea voluptatibus molestias quibusdam?
                     </p>
                     <a href="">Read More -></a>
-                </div>
-                <div><img src="" alt=""></div>
+                </div >
+                <div class="img_container"><img src="/images/trolly.png" alt=""></div>
             </div>
             <div>
                 <div>
@@ -44,6 +45,12 @@ $Components->head('Index'); ?>
             </div>
         </div>
 
+    </section>
+    <section>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
     </section>
 </main>
     <?php $Components->footer(); ?>
