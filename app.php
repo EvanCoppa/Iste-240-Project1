@@ -20,8 +20,8 @@ class Components
   public function header($pageId = -1)
   {
     echo '<header> <nav class="nav">';
-    $pages = array('Home', 'Glass Beach', 'Lost Cost', "San Francisco", "National Parks");
-    $links = array('index.php', 'glassbeach.php', 'lostcoast.php', 'sanfrancisco.php', 'nationalparks.php');
+    $pages = array('Glass Beach', 'Lost Cost', "San Francisco", "National Parks", "Map",'Home' );
+    $links = array('glassbeach.php', 'lostcoast.php', 'sanfrancisco.php', 'nationalparks.php', 'map.php','index.php');
     for ($currentPageId = 0; $currentPageId < count($pages); $currentPageId++) {
       if ($pageId == $currentPageId) {
         echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';

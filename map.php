@@ -4,12 +4,8 @@ $Components->head('Index'); ?>
 <body>
 <?php $Components->header(); ?>
     <main>
-    <div>
-        <h1>About</h1>
-        <div><h2>Why I Vistied</h2>
-        <p></p></div>
-        <div><img src="" alt="">
-    </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1oAgreV4XjWcDrrYB9NKNmlJ98xv7dJg&ehbc=2E312F" ></iframe>
+
     </div>
     </main>
     <?php $Components->footer(); ?>

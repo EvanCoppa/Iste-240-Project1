@@ -303,7 +303,7 @@ width: 50%;
   /* The lost coast */
 
   #lost_coast {
-    background-image: url("/images/lostcoast.jpg");
+    background-image: url("images/lostcoast.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -321,7 +321,7 @@ width: 50%;
 }
 
 #glass_beach{
-    background-image: url("/images/glassbeach.jpg");
+    background-image: url("images/glassbeach.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -337,3 +337,57 @@ width: 50%;
     left: 2rem;
 
 }
+
+/* Rubrick */
+
+#rubric{
+    display: flex;
+}
+
+
+/* Parks */
+#parks_section{
+    display: flex;
+    height: 100vh;
+    background-image: url(images/natforresr.jpg);
+    background-size: cover;
+}
+
+#parks{
+    text-align: center;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#parks{
+    max-width: 50%;
+}
+
+#parks h3{
+color: white;
+margin-bottom: -20px;
+
+font-size: 1.5rem;
+}
+
+
+#parks h1{
+    color: rgb(65, 161, 65);
+    font-size: 8rem;
+    margin: 0 auto;
+    }
+
+#parks p{
+
+    color: white;
+    font-size: .7rem;
+    margin: 0;
+    max-width: 60%;
+    margin: 20px auto;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }

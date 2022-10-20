@@ -3,11 +3,13 @@
 $Components->head('Index'); ?>
  <body>
     <?php $Components->header(4); ?>
-    <section>
-<h3></h3>
+    <section id="parks_section">
+        <div id="parks">
+<h3>California Natioal Parks</h3>
 <h1>Sequoia</h1>
-<p></p>
-<p></p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo iure quasi porro voluptatibus beatae enim repudiandae cum incidunt similique? Corporis culpa sunt explicabo assumenda a maiores voluptate sapiente nihil!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde saepe praesentium atque modi sed nihil dolores tempora voluptates assumenda perferendis nesciunt natus voluptatem nobis, alias officiis eos. Voluptas, ad!</p>
+</div>
 </section>
 <section>
             <div class="info">
