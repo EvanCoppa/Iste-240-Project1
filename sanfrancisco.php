@@ -2,11 +2,11 @@
 <?php include 'app.php';
 $Components->head('San Francisco'); ?>
 
-<body >
+<body>
     <?php $Components->header(3); ?>
     <main >
         <section id="sanfrancisco" style="background-color: #1F1F1F;">
-            <div><img src="/images/trolly.png" alt=""></div>
+            <div><img src="/images/trolly.png" alt="" style="height: 600px"></div>
             <div id="text">
                 <div>
                     <h1>DISCOVER</h1>
