@@ -58,7 +58,7 @@ class Components
     //project desctiption section
     echo '<div>
          <h3>Project Description</h3>
-         <p>Project Description</p>
+         <p>This is the site for my project, one for my ISTE-240 Class. For this project I created a site about my favorite place in northern california. I hope you enjoy!</p>
             </div>
             </div>
             </footer>';
