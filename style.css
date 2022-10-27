@@ -7,28 +7,46 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-
+    height: 100%;
+display: flex;
+flex-direction: column;
 }
+body > *{
+margin-bottom: 50px;}
 
 a {
     text-decoration: none;
 }
 
+#parks_section {
+    min-height: 150vh;
+
+}
+#parks_section + section {
+padding-bottom: 200px;
+}
+
+
+
 section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
 /* Navigation */
-
-
-.nav {
+header{
     position: absolute;
-    align-items: center;
-    padding: 20px;
     right: 0;
     top: 0;
     z-index: 10;
+    width: 100%;
+}
+
+.nav {
+    align-items: center;
+    padding: 20px 20px 40px 20px;
+    
+    background-color: rgba(113, 113, 113, 0.379);
 }
 
 .nav_link {
@@ -69,6 +87,8 @@ h1 span {
 }
 
 
+
+
 /* Explore Section*/
 
 #explore_section {
@@ -92,22 +112,26 @@ h1 span {
 
 }
 
+.explore_div{
+    width: 200px;
+}
+
 #explore_section div>* {
     background: #F2EBE6;
     height: 300px;
-    width: 200px;
     display: flex;
     flex-direction: column;
-    width: inherit;
 }
 
 #explore_section div>*>* {
     height: 50%;
-    width: 200px;
 }
 
 #explore_section div>*>* h3 {
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0px;
+    width: 170px;
+
 }
 
 #explore_section div> * > * p {
@@ -115,11 +139,16 @@ h1 span {
     margin: 10px;
     width: auto;
     color: rgba(0, 0, 0, 0.776);
+    width: 170px;
+
 }
 
 #explore_section div> * > * a {
     font-size: 0.5rem;
     color: #BFAA9D;
+    padding-left: 10px;
+    width: 170px;
+
 
 }
 
@@ -258,9 +287,10 @@ form{
 
   /* Footer */
   footer{
-    padding: 30px;
-    background-color: #a3b18a;
+    padding: 0px 30px;
+    background-color: #98a68074;
     color: black;
+
    }
 
 
@@ -271,17 +301,19 @@ form{
   .footer{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
    }
 
   .footer div{
     display: flex;
     justify-content: space-around;
  flex-direction: column;
+ min-width: 30%;
+
   }
 
   .footer div > a, .footer div > p{
   
- padding-left: 20px;
   }
 
   /* Info */
@@ -292,14 +324,32 @@ form{
     margin: 100px;
     height: max-content;
     flex-direction: column;
+    padding-bottom: 20px;
+    height: 100vh;
+
+
   }
 
   .info > div{
-width: 50%;
     display: flex;
     justify-content: space-around;
+    padding: 20px 10% 20px 10%;
   }
 
+  .info > div div{
+ max-height: 300px;
+ padding-right: 20px;
+
+  }
+
+  .info p{
+    width: 100%;
+  }
+
+  .info img{
+    width: auto;
+    max-height: 300px;
+ }
   /* The lost coast */
 
   #lost_coast {
@@ -391,3 +441,6 @@ font-size: 1.5rem;
         width: 100%;
         height: 100%;
     }
+
+
+  

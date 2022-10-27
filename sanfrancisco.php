@@ -3,7 +3,7 @@
 $Components->head('San Francisco'); ?>
 
 <body>
-    <?php $Components->header(3); ?>
+    <?php $Components->header(2); ?>
     <main >
         <section id="sanfrancisco" style="background-color: #1F1F1F;">
             <div><img src="/images/trolly.png" alt="" style="height: 600px"></div>
@@ -23,10 +23,10 @@ $Components->head('San Francisco'); ?>
                     <div>
                         <p>If you haven't been to the Bay Area, you’re missing out! The San Francisco Bay area is THE place to be when visiting CA. It has everything you can possibly want: amazing views, delicious food, and fun activities.</p>
                     </div>
-                    <div><img src="" alt=""></div>
+                    <div><img src="/images/Motorcycle.jpg" alt=""></div>
                 </div>
                 <div>
-                    <div><img src="" alt=""></div>
+                    <div><img src="/images/goldengate.jpg" alt=""></div>
                     <div>
                         <p>If you haven't been to the Bay Area, you’re missing out! The San Francisco Bay area is THE place to be when visiting CA. It has everything you can possibly want: amazing views, delicious food, and fun activities.</p>
                     </div>

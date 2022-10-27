@@ -4,7 +4,7 @@
 $Components->head('Index'); ?>
 </head>
 <body>
-<?php $Components->header(2); ?>
+<?php $Components->header(0); ?>
 <main>
     <section id='lost_coast'>
 <h1>The Lost Coast</h1>

@@ -3,7 +3,7 @@
 <?php include 'app.php';
 $Components->head('Index'); ?>
 <body>
-<?php $Components->header(0); ?>
+<?php $Components->header(4); ?>
 <main>
     <section id='landing_section'>
 <h1>Northern <span>Californa</span></h1>
@@ -52,7 +52,7 @@ $Components->head('Index'); ?>
                     <div>
                         <p>California's Lost Coast is a series of thousands of miles of coastline, which provides a remote area for people to live and recreate. The region is filled with warm sea waters and nice hidden coves, perfect for swimming and surfing..</p>
                     </div>
-                    <div><img src="" alt=""></div>
+                    <div><img src="/images/goldengate.jpg" alt=""></div>
                 </div>
                 <div>
                     <div><img src="" alt=""></div>

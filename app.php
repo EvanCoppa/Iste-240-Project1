@@ -20,8 +20,8 @@ class Components
   public function header($pageId = -1)
   {
     echo '<header> <nav class="nav">';
-    $pages = array('Glass Beach', 'Lost Cost', "San Francisco", "National Parks", "Map",'Home' );
-    $links = array('glassbeach.php', 'lostcoast.php', 'sanfrancisco.php', 'nationalparks.php', 'map.php','index.php');
+    $pages = array('Glass Beach', 'Lost Cost', "San Francisco", "National Parks", 'Home' );
+    $links = array('glassbeach.php', 'lostcoast.php', 'sanfrancisco.php', 'nationalparks.php','index.php');
     for ($currentPageId = 0; $currentPageId < count($pages); $currentPageId++) {
       if ($pageId == $currentPageId) {
         echo '<a class="nav_link active" href="' . $links[$currentPageId] . '">' . $pages[$currentPageId] . '</a></li>';
@@ -52,8 +52,10 @@ class Components
          <h3>Resources</h3>
          <a class="footer-link" href="/about.php">About</a>
             <a class="footer-link" href="/survey.php">Survey</a>
-            <a class="footer-link" href="Rubric.php">Rubric</a>
-            <a class="footer-link" href="Refrences.php">Reference</a>
+            <a class="footer-link" href="/Rubric.php">Rubric</a>
+            <a class="footer-link" href="/Refrences.php">Reference</a>
+            <a class="footer-link" href="/map.php">Map</a>
+
             </div>';
     //project desctiption section
     echo '<div>
